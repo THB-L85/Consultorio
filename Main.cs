@@ -19,8 +19,15 @@ namespace ConsultorioDental
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Pacientes pacientes = new Pacientes();
-            pacientes.ShowDialog();
+            pacientes.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Registros.Form1 registros = new Registros.Form1();
+            registros.Show();
         }
     }
 }

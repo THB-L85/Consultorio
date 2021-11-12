@@ -14,12 +14,12 @@ namespace ConsultorioDental
         {
             _dataAccessLayer = new DataAccessLayer();
         }
-        public TablaPacientes SaveContact(TablaPacientes tablaPacientes)
+        public TablaPacientes SavePaciente(TablaPacientes tablaPacientes)
         {
             if (tablaPacientes.Id == 0)
                 _dataAccessLayer.InsertTablaPacientes(tablaPacientes);
-            //else
-                //_dataAccessLayer.UpdateTablaPacientes
+            else
+                _dataAccessLayer.UpdateTablaPacientes(tablaPacientes);
 
             return tablaPacientes;
         }
@@ -27,6 +27,11 @@ namespace ConsultorioDental
         public List<TablaPacientes> GetTablaPacientes()
         {
             return _dataAccessLayer.GetTablaPacientes();
+        }
+
+        public void DeletePaciente(int id)
+        {
+            _dataAccessLayer.DeletePacientes(id);
         }
     }
 }

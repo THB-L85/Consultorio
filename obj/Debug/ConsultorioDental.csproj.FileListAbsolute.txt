@@ -10,3 +10,7 @@ C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.cspr
 C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.exe
 C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.pdb
 C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.Main.resources
+C:\Users\Luis\Documents\repos\ConsultorioDental\bin\Debug\Registros.exe
+C:\Users\Luis\Documents\repos\ConsultorioDental\bin\Debug\Registros.pdb
+C:\Users\Luis\Documents\repos\ConsultorioDental\bin\Debug\Registros.exe.config
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.csproj.CopyComplete

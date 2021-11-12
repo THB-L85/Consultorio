@@ -120,7 +120,7 @@ namespace ConsultorioDental
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(124, 34);
             this.btnSave.TabIndex = 8;
-            this.btnSave.Text = "Agregar";
+            this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 

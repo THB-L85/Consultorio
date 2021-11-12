@@ -13,6 +13,7 @@ namespace ConsultorioDental
     public partial class AgregarPaciente : Form
     {
         private BussinesLogicLayer _bussinesLogicLayer;
+        private TablaPacientes _tablaPacientes;
         public AgregarPaciente()
         {
             InitializeComponent();
@@ -39,7 +40,34 @@ namespace ConsultorioDental
             tablaPacientes.Phone = txtCelular.Text;
             tablaPacientes.Email = txtCorreo.Text;
 
-            _bussinesLogicLayer.SaveContact(tablaPacientes);
+            //Esta linea sirve para que no se repita la insercion al actualizar
+            tablaPacientes.Id = _tablaPacientes != null ? _tablaPacientes.Id : 0;
+
+            _bussinesLogicLayer.SavePaciente(tablaPacientes);
+        }
+
+        //--------------------esto es para actualizar datos de la base------------------////////////
+        public void LoadPaciente(TablaPacientes tablaPacientes)
+        {
+            _tablaPacientes = tablaPacientes;
+
+            if(tablaPacientes != null)
+            {
+                ClearForm();
+
+                txtNombres.Text = tablaPacientes.FirstName;
+                txtApellidos.Text = tablaPacientes.LastName;
+                txtCelular.Text = tablaPacientes.Phone;
+                txtCorreo.Text = tablaPacientes.Email;
+            }
+        }
+
+        private void ClearForm()
+        {
+            txtNombres.Text = string.Empty;
+            txtApellidos.Text = string.Empty;
+            txtCelular.Text = string.Empty;
+            txtCorreo.Text = string.Empty;
         }
     }
 }
