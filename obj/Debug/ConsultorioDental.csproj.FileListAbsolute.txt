@@ -1,0 +1,12 @@
+C:\Users\Luis\Documents\repos\ConsultorioDental\bin\Debug\ConsultorioDental.exe.config
+C:\Users\Luis\Documents\repos\ConsultorioDental\bin\Debug\ConsultorioDental.exe
+C:\Users\Luis\Documents\repos\ConsultorioDental\bin\Debug\ConsultorioDental.pdb
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.csproj.AssemblyReference.cache
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.AgregarPaciente.resources
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.Pacientes.resources
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.Properties.Resources.resources
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.csproj.GenerateResource.cache
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.exe
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.pdb
+C:\Users\Luis\Documents\repos\ConsultorioDental\obj\Debug\ConsultorioDental.Main.resources
